@@ -2,47 +2,57 @@ body {
     margin: 0px;
     padding: 0;
 }
-  
+
 .d-flex {
     display: flex;
 }
- 
+
 .list-unstyled {
     list-style: none;
-}  
+}
 
 .main-nav {
     background: aqua;
 }
- 
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
 .banner {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
-    opacity:0;
+    opacity: 0;
     background: blue;
+    border-radius: 50%;
 }
- 
-.banner:hover{
+
+.banner:hover {
     opacity: 0.5;
 }
-.img {
-    width: 100px;
-    height: 100px;
+.logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
- 
-.list {    
+.list {
     width: 100px;
     padding: 10px;
     margin: 13px 10px 10px;
     border: 10px darkblue solid;
     background: darkgrey;
 }
+
 li:hover {
     display: block;
-    background: linear-gradient(#30E8BF,#FF8235)   ;
+    background: linear-gradient(#30E8BF, #FF8235);
 }
-
-
