@@ -1,0 +1,63 @@
+.d-fex {
+    display: flex;
+}
+
+.main-nav {
+    background: cornflowerblue;
+}
+ 
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+}
+ 
+.logo img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+ 
+.img {
+    width: 100px;
+    height: 100px;
+}
+ 
+.banner {
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: crimson;
+     opacity: 0;
+     border-radius: 50%;
+}
+ 
+.banner:hover {
+    opacity: 0.5;
+}
+ 
+.list-unstyled {
+    list-style: none;
+}
+ 
+.list {
+    width: 100px;
+    margin: 13px 10px 10px;
+    padding: 10px;
+    border: 10px goldenrod solid;
+    background: hotpink;
+
+
+}
+ 
+.list:hover {
+    cursor: pointer;
+    background: linear-gradient(white,snow);
+
+}
