@@ -14,7 +14,17 @@ body {
 .main-nav {
     background: aqua;
 }
-
+ 
+.banner {
+    object-fit: cover;
+    position: relative;
+    opacity: 0;
+    background: blue;
+}
+ 
+.banner:hover{
+    opacity: 0.5;
+}
 .img {
     width: 100px;
     height: 100px;
@@ -29,7 +39,7 @@ body {
 }
 li:hover {
     display: block;
-    background: chocolate;
+    background: linear-gradient(#30E8BF,#FF8235)   ;
 }
 
 
