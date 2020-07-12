@@ -6,24 +6,28 @@
     <title>Document</title>
 </head>
 <style>
-    body {background: black;
+    body {
+         
+        background: black;
+       
     }
-    @keyframes sam {
-    0% {background-position:0 0;}
-    100% {background-position:500px 0 ;}
-    }
-    .earth{ 
-    
-    width: 281px;
-    height: 281px;
-    background: url(earth2.jpg);
-    margin: 0 auto;
-    border-style: 20px white solid;
-    border-radius: 50%;
-    animation: sam infinite linear 2s 0s ;
-    
-    ;    
-    }
+
+   @keyframes sam{
+       0% {background-position:0 0;}
+       100% {background-position:500px 0;}
+   }
+   .earth{
+       margin: 0 auto;
+       width: 281px;
+       height: 281px;
+       border-radius: 50%;
+       background: url(earth2.jpg);
+       background-size: cover;
+       animation: sam infinite linear 5s;
+       box-shadow: 0 0 10px 3px red,0 0 10px white;
+       overflow: hidden;
+
+   }
 </style>
 <body>
 <div class="earth"></div>   

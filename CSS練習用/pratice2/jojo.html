@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jojo.css">
+</head>
+<style>
+    body {background: black;}
+    @keyframes move {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 1200px 0;
+        }
+
+    }
+
+    .jojo{
+        margin: 0 auto;
+        width: 675px;
+        height: 675px;
+        background: url(jojo.png);
+        background-size: cover;
+        animation: move infinite 10s linear;
+        overflow: hidden;
+
+    
+        
+
+    }
+</style>
+
+<body>
+<div class="jojo"></div>
+</body>
+
+</html>
