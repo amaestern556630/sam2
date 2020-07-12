@@ -27,7 +27,7 @@ body {
     border: 10px darkblue solid;
     background: darkgrey;
 }
-a:hover {
+li:hover {
     display: block;
     background: chocolate;
 }
