@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+  
+.d-flex {
+    display: flex;
+}
+ 
+.list-unstyled {
+    list-style: none;
+}  
+
+.main-nav {
+    background: aqua;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+ 
+.list {    
+    width: 100px;
+    padding: 10px;
+    margin: 13px 10px 10px;
+    border: 10px darkblue solid;
+    background: darkgrey;
+}
+a:hover {
+    display: block;
+    background: chocolate;
+}
+
+
