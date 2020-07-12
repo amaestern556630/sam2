@@ -14,20 +14,36 @@ body {
 .main-nav {
     background: aqua;
 }
+.logo  {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+} 
  
-.banner {
-    position: absolute;
+.logo img{
+    width: 100% ;
+    height: 100% ;
+    position: absolute ;
+    top:0 ;
+    left:0 ;
+    object-fit: cover;
+}
+.banner { 
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
     object-fit: cover;
-    position: relative;
-    opacity:0;
-    background: blue;
+    background: tan;
+    opacity:0;   
+    border-radius: 50%; 
 }
- 
-.banner:hover{
+.banner:hover{ 
     opacity: 0.5;
 }
+
 .img {
     width: 100px;
     height: 100px;
@@ -41,8 +57,10 @@ body {
     background: darkgrey;
 }
 li:hover {
+    cursor: pointer;
     display: block;
-    background: linear-gradient(#30E8BF,#FF8235)   ;
+    background: linear-gradient(#30E8BF,#FF8235) 
+      ;
 }
 
 
