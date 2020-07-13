@@ -41,6 +41,9 @@
 .banner:hover {
     opacity: 0.5;
 }
+ul {
+    margin: 0 auto;
+}
  
 .list-unstyled {
     list-style: none;
@@ -58,6 +61,7 @@
  
 .list:hover {
     cursor: pointer;
+    display: block;
     background: linear-gradient(white,snow);
 
 }
