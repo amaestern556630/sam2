@@ -10,8 +10,8 @@ body {
     background: rgba(255, 255, 255, 1);
     position: absolute;
     left: 50%;
-    padding-left: 150px;
-    border-radius: 20px 20px 30px 30px;
+    padding: 0;
+    border-radius: 30px;
     box-shadow: 5px 5px 10px blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -31,6 +31,7 @@ body {
 figure img{
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
  
 .contain{
@@ -54,7 +55,7 @@ h2 {
  
 .border_image {
     border: 20px solid transparent;
-    border-image: url(border-image2.png)
+    border-image: url(border-image2.png) 20 round
 }
  
 .buttom {
