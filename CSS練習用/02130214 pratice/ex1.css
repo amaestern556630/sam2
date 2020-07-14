@@ -1,63 +1,62 @@
 body {
     background: grey;
     position: relative;
-     
 }
- 
+
 .card {
     width: 300px;
     height: 400px;
     background: rgba(255, 255, 255, 1);
-    position: absolute;
-    left: 50%;
+    position: relative;
+    margin: 0 auto;
     padding: 0;
     border-radius: 30px;
     box-shadow: 5px 5px 10px blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
- 
+
 .circle {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    padding: 60%;
+    left:40%;
+    top:50%;
+    transform: translate(-60%,-50%);
 }
- 
-figure img{
+
+figure img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    
 }
- 
-.contain{
+
+.contain {
     object-fit: cover;
 }
- 
+
 .banner {
     background: url(light.jpg) center center no-repeat;
     height: 200px;
     background-size: cover;
     border-radius: 30px 30px 0px 0px;
 }
- 
+
 .content {
-    padding: 20px 20px 20px ;
+    padding: 20px 20px 20px;
 }
- 
+
 h2 {
     border-bottom: grey 1px solid;
 }
- 
+
 .border_image {
     border: 20px solid transparent;
     border-image: url(border-image2.png) 20 round
 }
- 
+
 .buttom {
     background: aqua;
     color: brown;
