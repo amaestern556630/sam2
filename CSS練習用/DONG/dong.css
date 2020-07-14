@@ -2,14 +2,14 @@ body {
     margin: 0px;
     padding: 0;
 }
-  
+
 .d-flex {
     display: flex;
 }
- 
+
 .list-unstyled {
     list-style: none;
-}  
+}
 
 .main-nav {
     background: aqua;
@@ -48,14 +48,14 @@ body {
     width: 100px;
     height: 100px;
 }
- 
-.list {    
+.list {
     width: 100px;
     padding: 10px;
     margin: 13px 10px 10px;
     border: 10px darkblue solid;
     background: darkgrey;
 }
+
 li:hover {
     cursor: pointer;
     display: block;
