@@ -1,0 +1,61 @@
+.d-flex {
+    display: flex;
+}
+ 
+nav {
+    background: aquamarine;
+}
+ 
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative; 
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+ 
+.banner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: burlywood;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50%;
+}
+ 
+.banner:hover {
+    opacity: 0.5;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+ 
+.list {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: linear-gradient(red,white,gray);
+    border: burlywood 5px solid;
+    padding: 10px;
+    
+}
+ 
+.list:hover {
+    cursor: pointer;
+    background: darkkhaki;
+    display: block;
+}
+ 
+.text-style {
+    text-align: center;
+}
