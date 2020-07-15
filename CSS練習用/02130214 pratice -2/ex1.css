@@ -1,0 +1,66 @@
+body {
+    background: lawngreen;
+    position: relative;
+}
+ 
+.card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 30px 30px 20px 20px;
+    box-shadow: 10px 10px 5px blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ 
+.banner {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    background:url(light.jpg );
+    border-radius: 30px 30px 0px 0px;
+
+}
+ 
+.circle {
+
+}
+ 
+figure {
+
+}
+ 
+figure img{
+
+}
+ 
+.contain {
+    object-fit: cover;
+}
+ 
+.content {
+    padding: 20px 20px 20px;
+    
+    
+}
+ 
+.border_image {
+    border: 20px solid transparent;
+    border-image: url(border-image2.png) 20 round;
+
+}
+ 
+.buttom {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 17%;
+    bottom: 10%;
+    border-radius: 10px 10px 10px 10px ;
+    background: aqua;
+    display: block;
+}
