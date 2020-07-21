@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddd;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.main-header {
+    background: white;
+}
+
+.logo {
+    height: 48px;
+}
+
+.main-header ul {
+    margin-top: 0;
+}
+
+.main-header li {
+    margin-right: 10px;
+}
+
+.main-header li a {
+    text-decoration: none;
+}
+
+.main-nav {
+    background: #3c5a9c;
+}
+
+.main-nav li {
+    color: white;
+    font-size: larger;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+
+.main-nav li:nth-of-type(1), .main-nav li:hover {
+    background: rgba(1, 50, 67, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .main-nav li{
+        flex: 1 0 0;
+        text-align: center;
+    }
+}
+main.wrapper {
+    margin-top: 20px;
+    height: calc(100vh - 150px);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-wrap: wrap;
+    }
+    main.wrapper {
+        height:auto;
+    }
+}
+
+.left-aside img {
+    width: 150px;
+    border-radius: 50%;
+    border: black 2px solid;
+}
+
+.left-aside li {
+    width: 150px;
+    color: rgba(58, 83, 155, 1);
+    font-size: larger;
+    padding: 5px;
+}
+
+.left-aside li:nth-of-type(1), .left-aside li:hover {
+    background-color: white;
+    border-left: #355089 3px solid;
+}
+
+@media screen and (max-width: 768px) {
+    .left-aside {
+        width: 100%;
+    }
+    
+    .left-aside img {
+        width: 100%;
+        border-radius: 0;
+        border: hidden;
+    }
+    .left-aside ul {
+        display: flex;
+        margin-top: 10px;
+    }
+    .left-aside li {
+        flex:1;
+        text-align: center;
+    }
+    .left-aside li:hover,.left-aside li:nth-of-type(1) {
+        border-left: transparent;
+        border-bottom: #355089 3px solid ;
+   
+    }
+}
+
+.main-article {
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px;
+    flex: 1 0 0;
+}
+@media screen and (max-width:768px){
+    .main-article{
+        height: 200px;
+        width: 100%;
+        flex: none;
+        margin: 0 0 10px;
+    }
+    .right-aside img{
+        display: none;
+    }
+}
+.main-footer {
+    text-align: center;
+    margin: 20px 0;
+}
