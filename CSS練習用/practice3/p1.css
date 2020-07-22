@@ -1,51 +1,26 @@
-body {
-    position: relative;
-    background-color: darkgrey;
-}
-
-.card {
-    position: absolute;
-    margin-left: -150px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px black;
-    top: 5%;
-    left: 50%;
-    width: 300px;
-    height: 400px;
-
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: pink;
 }
  
-.circle {
-    background-color: black;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin: -60px;
-
+.list-unstyled {
+    list-style: none;
 }
  
-.banner {
-    height: 150px;
-    background: url(images/light.jpg) center center no-repeat;
-    border-radius: 30px 30px 0 0;
-    background-size: cover;
+.d-flex {
+    display: flex;
 }
  
-.content {
-   padding: 30px 20px 60px;
-   border: 20px transparent solid;
-   border-image: url(images/border-image2.png) 20 round;
-   background-color: white;
-   text-align: center;
-   border-radius: 0 0 10px 10px;
-
-}
- 
-.button {
-    background-color: aqua;
+.list {
+    padding: 20px 50px;
+    margin: 20px;
+    border: black 2px  solid;
     border-radius: 10px;
+    opacity: 0;
+}
+ 
+.list:hover {
+    opacity: 1;
+    transform: translateY(0px);
 }
